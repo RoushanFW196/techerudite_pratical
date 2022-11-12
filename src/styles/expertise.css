@@ -1,0 +1,77 @@
+.expertise-container {
+  width: 1447px;
+  height: 770px;
+  top: 20px;
+
+  background-color: #fafafa;
+
+  margin: auto;
+}
+.expertise-heading {
+  width: 318.99px;
+  height: 51.03px;
+  left: 542.08px;
+  font-family: "Nunito sans-serif";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49.1px;
+  color: #231f20;
+  position: relative;
+  font-style: normal;
+  text-align: center;
+}
+
+.expertise-areas {
+  display: grid;
+  grid-template-columns: repeat(3, 396.13px);
+  grid-template-rows: repeat(2, 308.95px);
+  margin: 20px 50px;
+  padding: 0px 75px;
+}
+
+.expertise-gridItems {
+  left: 35.34%;
+  right: 37.15%;
+  top: 39.37%;
+  bottom: 56.64%;
+  margin: 19.49px 15.64px;
+  background: #ffffff;
+
+  padding: 5px 20px;
+}
+.first {
+  -webkit-box-shadow: 18px 9px 15px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 18px 9px 15px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 18px 9px 15px -4px rgba(0, 0, 0, 0.75);
+}
+.expertise-gridItems:hover {
+  border: 2px solid #250b8e5f;
+}
+
+.expertise-gridItems p {
+  left: 5.07%;
+  right: 9.72%;
+  top: 25.9%;
+  bottom: 56.91%;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  position: relative;
+  color: #231f20;
+}
+
+.expertise-gridItems img {
+  width: 104.24px;
+  height: 87.84px;
+  position: relative;
+  left: 35.34%;
+  right: 37.15%;
+  top: 15.37%;
+  bottom: 56.64%;
+
+  background: #ffffff;
+}
